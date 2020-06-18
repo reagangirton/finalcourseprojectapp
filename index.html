@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rea's Website Course Project 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  
+  <!--<link rel="stylesheet" href="jquery-mobile-theme-144456-0/themes/reastheme.min.css" /> --->
+  <link rel="stylesheet" href="css/themes/my-custom-theme.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css"/>
+  <script src="https://code.jquery.com/jquery-1.8.2.min.js"> </script>
+  <script src="https://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+  <script src="index.js"></script>
+  
+ </head>
+
+ <body>
+
+<!--home page -->
+
+<!-- Start of  page ------------------------------------------------------------------>
+
+    <!--   page header -->
+    <div data-role="page" id="home">
+	<div data-role="header" data-theme='a'>
+    <h1>Rea's Website Course Project 1</h1>
+    <a href="#home" class="homepage" data-icon="home">Home</a>
+    <a href="#menu"  class="menupage" data-icon="menu">Food Menu</a>
+    <a href="#foodtrack" class="foodtrack" data-icon="grid">Food Tracker</a>
+    <a href="#foodlist" class="foodlist" data-icon="info">Grocery List</a>
+  </div> 
+
+  
+    <!--   page content -->
+    <div data-role="content" data-theme='e'>
+      <div class="">
+        <h2>Rea's Website</h2>
+      </div>
+      <img src="http://libbyvision.com/wp-content/uploads/2017/04/food_photography_palm_beach_gardens_florida_parched_pig.jpg" class="center" style="width:468px;height:313px";>
+      </div> 
+  
+    <!--  page footer -->
+      <div data-role="footer" data-theme='a'>
+        <h1>Food Fact: Fruit snacks and cars are coated in the same type of wax.</h1>
+    </div>
+  </div>
+  <!-- End of  page ------------------------------------------------------------------>
+
+<!--menu page -->
+
+<!-- Start of  page ------------------------------------------------------------------>
+
+<!--   page header -->
+
+<div data-role="page" id="menu">
+	<div data-role="header" data-theme='e'>
+    <h1>Reas Website</h1>
+    <a href="#home" class="homepage" data-icon="home">Home</a>
+    <a href="#menu" class="menupage" data-icon="menu">Food Menu</a>
+    <a href="#foodtrack" class="foodtrack" data-icon="grid">Food Tracker</a>
+    <a href="#foodlist" class="foodlist" data-icon="info">Grocery List</a>
+  </div> 
+
+
+  <!--   page content -->
+
+	<div role="main" data-theme='a'>	
+		<p><h2>Menu</h2>
+  
+      <h3>Breakfast</h3>
+    
+      <form id="foodform" action="">
+        
+
+      <input type="radio" id="pancakes" name="pancakes" value="pancakes">
+      <label for="pancakes">Pancakes</label><br>
+      <input type="radio" id="omlette" name="omlette" value="omelette">
+      <label for="omlette">Omlette</label><br>
+      <input type="radio" id="waffles" name="waffles" value="waffles">
+      <label for="waffles">Waffles</label>
+    </form>
+      
+      <h3>Lunch</h3>
+      
+      <input type="radio" id="pasta" name="pasta" value="pasta">
+      <label for="pasta">Pasta</label><br>
+      <input type="radio" id="tacos" name="tacos" value="tacos">
+      <label for="tacos">Tacos</label><br>
+      <input type="radio" id="lemon chicken" name="lemon chicken" value="lemon chicken">
+      <label for="lemon chicken">Lemon Chicken</label>
+     </form>
+      
+    <h3>Dinner</h3>
+      
+      <input type="radio" id="pizza" name="pizza" value="pizza">
+      <label for="pizza">Pizza</label><br>
+      <input type="radio" id="hamburger" name="hamburger" value="hamburger">
+      <label for="hamburger">Hamburger</label><br>
+      <input type="radio" id="korean BBQ" name="korean BBQ" value="korean BBQ">
+      <label for="korean BBQ">Korean BBQ</label>
+      </form>
+    
+    <h3>Dessert</h3>
+    
+      <input type="radio" id="cake" name="cake" value="cake">
+      <label for="cake">Cake</label><br>
+      <input type="radio" id="ice cream" name="ice cream" value="ice cream">
+      <label for="ice cream">Ice Cream </label><br>
+      <input type="radio" id="crepe" name="crepe" value="crepe">
+      <label for="crepe">Crepe</label>
+      </form>
+    
+    <h3>Drinks</h3>
+    
+      <input type="radio" id="diet coke" name="diet coke" value="diet coke">
+      <label for="diet coke">Diet Coke</label><br>
+      <input type="radio" id="orange fanta" name="orange fanta" value="orange fanta">
+      <label for="orange fanta">Orange Fanta</label><br>
+      <input type="radio" id="water" name="water" value="water">
+      <label for="water">Water</label><br>
+      <input type="submit" value="Submit">
+      </form>
+    </p>	
+  </div>
+
+  <!--  page footer -->
+
+  <div data-role="footer" data-theme='e'>
+    <h1>Food Fact: Scientists can turn peanut butter into diamonds.</h1>
+  </div>
+</div>
+<!-- End of  page ------------------------------------------------------------------>
+
+<!--food tracker -->
+
+<!-- Start of  page ------------------------------------------------------------------>
+
+<!--   page header -->
+
+<div data-role="page" id="foodtrack">
+	<div data-role="header" data-theme='a'>
+    <h1>Reas Website</h1>
+    <a href="#home" class="homepage" data-icon="home">Home</a>
+    <a href="#menu"  class="menupage" data-icon="menu">Food Menu</a>
+    <a href="#foodtrack" class="foodtrack" data-icon="grid">Food Tracker</a>
+    <a href="#foodlist" class="foodlist" data-icon="info">Grocery List</a>
+  </div> 
+
+
+  <!--   page content -->
+
+	<div role="main" data-theme='e'>	
+		<form action="FoodList">
+      <label for="fname">Name of Food:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="cname">Calories:</label>
+      <input type="text" id="cname" name="cname"><br><br>
+      <label for="hname">Quantity:</label>
+      <input type="text" id="hname" name="hname"><br><br>
+      <input type="Submit" value="Click to Add to Your Total">
+    </form>
+
+    <button id="clearButton" type="button">Clear</button>
+  </div>
+  
+  <!--  page footer -->
+
+  <div data-role="footer" data-theme='a'>
+    <h1>Food Fact: One burger patty can contain hundreds of different cows.</h1>
+  </div>
+</div>
+<!-- End of  page ------------------------------------------------------------------>
+
+<!--food list home page -->
+
+<!-- Start of  page ------------------------------------------------------------------>
+
+<!--   page header -->
+
+<div data-role="page" id="foodlist">
+	<div data-role="header" data-theme='e'>
+    <h1>Reas Website</h1>
+    <a href="#home" class="homepage" data-icon="home">Home</a>
+    <a href="#menu"  class="menupage" data-icon="menu">Food Menu</a>
+    <a href="#foodtrack" class="foodtrack" data-icon="grid">Food Tracker</a>
+    <a href="#foodlist" class="foodlist" data-icon="info">Grocery List</a>
+    <a href="#showlist" class="showlist">Show List</a>
+    <a href="#addDelete" class="adddelete">Add and Delete</a>
+  </div> 
+
+
+<!--   page content -->
+
+	<div role="main" data-theme='a'>	
+		<h1>This page is where you can add and delete things from a unordered list. I think of it as a grcoery list for adding and taking away things.</h1>
+  </div>
+  
+  <!--  page footer -->
+
+  <div data-role="footer" data-theme='e'>
+    <h1>Food Fact: A typical ear of corn has an even number of rows.</h1>
+  </div>
+</div>
+<!-- End of  page ------------------------------------------------------------------>
+
+<!--adding and deleting grocery items-->
+
+<!-- Start of  page ------------------------------------------------------------------>
+
+    <!--   page header -->
+    <div data-role="page"  id="addDelete">
+    <div data-role="header" data-theme='e'>
+      <h1>Add or Delete Grocery Items</h1>
+      <a href="#home" class="homepage" data-icon="home">Home</a>
+      <a href="#menu"  class="menupage" data-icon="menu">Food Menu</a>
+      <a href="#foodtrack" class="foodtrack" data-icon="grid">Food Tracker</a>
+      <a href="#foodlist" class="foodlist" data-icon="info">Grocery List</a>
+      <a href="#showlist" class="showlist">Show List</a> 
+    </div>
+    
+    
+  
+    <!--   page content -->
+    <div data-role="content" data-theme='a'>
+      <div class="">
+        <h2>Enter Your Food Name:</h2><br>
+        <input type="text" value="" id="food-name" />
+       <h2>Enter the Quantity of Food:</h2><br>
+       <input type="text" value="" id="food-quantity" />
+          
+      <h2>Enter ID to Delete Food ID:</h2>
+      <input type="text" value="" id="deleteID" />
+      <input type="button" value="Click To Delete" id="delete-food" />
+      <input type="button" value="Click To Add Food Item" id="add-food" data-inline="true" />
+      <input type="button" value="Clear Data" id="clear-food"  data-inline="true" />
+
+    </div>
+  
+    <!--  page footer -->
+      <div data-role="footer" data-theme='e'>
+      <h1>Food Fact: Green, yellow, and red bell peppers are not actually the same vegetable.</h1>
+    </div>
+  </div>
+  <!-- End of  page ------------------------------------------------------------------>
+
+  
+</body>
+</html> 
